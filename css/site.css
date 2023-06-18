@@ -1,31 +1,149 @@
 * {
+    font-size: 1.1em;
     margin: 0;
-}
-body {
-    background-color: #F0F8FF;
+    font-family:'Times New Roman', Times, serif;
 }
 
 #topo {
-    background: url(../imagens/escritorio.jpg) ;
+    background: url(../imagens/escritorio3.jpg) ;
     width: 1920px;
     height: 650px;
-    position: absolute;
+    
 }
 
 header {
-    position: relative;
-    width: 1100px;
+    
+    width: 1400px;
     margin: 0 auto;
     height: 450px;
-    background-color: #FF7F50;
-    margin-top:70px;
     padding: 40px;
 }
 
-#texto {
-    width: 400px;
+header h1 {
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 1.9em;
+    margin-left: 40px;
+    color: black;
+}
+header h2 {
+    color:  black;
+    
+}
+header p{
+    margin-top: 20px;
+    color:  black;
 }
 
-#texto h1 {
-    color: white;
+
+#texto {
+    float: left;
+    width: 600px;
+    
+}
+
+#foto {
+    margin-top: 30px;
+    width: 730px;
+    float: right;
+    margin-right: 70px;
+}
+
+#botaoconsulta {
+    float: left;
+    margin-left: 35px;
+    margin-top: 65px;
+    width: 550px;
+    height: 70px;
+    text-transform: uppercase;
+    background-color: #B8860B;
+    border: none;
+}
+
+/*inicio conteudos */
+
+#conteudos {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 65px;
+    height: 545px;
+    border: #B8860B 7px solid;
+}
+
+#curriculo {
+    float: left;
+    width: 500px;
+    margin: 15px;
+    background-color: #D3D3D3;
+    padding: 5px;
+}
+
+#consultorio {
+    padding: 5px;
+    margin: 15px;
+    float: right;
+    width: 500px;
+    background-color: #D3D3D3;
+}
+
+section h2{
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+#consultorio-conteudo {
+    height: 427px;
+    width: 470px;
+    background-color: #C0C0C0;
+    margin: 15px;
+    margin-top: 25px;
+    
+}
+
+#consultorio-conteudo p{
+    margin-left: 20px;
+    font-size: 0.8em;
+    margin-top: 15px;
+    font-family :'Courier New', Courier, monospace;
+}
+
+iframe {
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+
+#curriculo-conteudo {
+    background-color: #C0C0C0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+#curriculo-conteudo p{
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 0.8em;
+    margin-left: 8px;
+
+}
+
+#curriculo-conteudo img{
+    margin-top: 15px;
+    margin-left: 180px;
+    margin-bottom: 5px;
+
+}
+
+/* rodapé */
+footer {
+    margin-top: 45px;
+    height:65px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+}
+#textorodape{
+    padding-top: 16px;
+    font-size: 0.9em;
 }
